@@ -25,11 +25,11 @@ import pandas as pd
 df = pd.read_csv("zomato.csv", encoding='ISO-8859-1')
 df.head()
 
-df.shape
+#df.shape
 
-df.columns
+#df.columns
 
-df.sample(5)
+#df.sample(5)
 
 columns_to_drop = [
     'Restaurant ID', 'Address', 'Locality Verbose',
