@@ -39,7 +39,7 @@ columns_to_drop = [
 ]
 
 df.drop(columns=columns_to_drop, inplace=True, errors='ignore')
-df.shape
+#df.shape
 
 df.isnull().sum()
 
