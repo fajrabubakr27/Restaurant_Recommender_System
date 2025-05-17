@@ -10,15 +10,15 @@ Original file is located at
 from google.colab import files
 files.upload()
 
-!pip install kaggle
+#!pip install kaggle
 
-!mkdir -p ~/.kaggle
-!cp kaggle.json ~/.kaggle/
-!chmod 600 ~/.kaggle/kaggle.json
+#!mkdir -p ~/.kaggle
+#!cp kaggle.json ~/.kaggle/
+#!chmod 600 ~/.kaggle/kaggle.json
 
-!kaggle datasets download -d shrutimehta/zomato-restaurants-data
+#!kaggle datasets download -d shrutimehta/zomato-restaurants-data
 
-!unzip zomato-restaurants-data.zip
+#!unzip zomato-restaurants-data.zip
 
 import pandas as pd
 
